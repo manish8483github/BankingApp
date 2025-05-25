@@ -9,6 +9,7 @@ public class BankApp {
 		// sample account
 		BankAccount account1 = new BankAccount("123", "pankaj", new BigDecimal("1000.00"), "ACTIVE");
 		BankAccount account2 = new BankAccount(null, "", null, "INACTIVE");
+		BankAccount account3= new BankAccount("130", "nanau", new BigDecimal("102521.00"), "ACTIVE");
 
 		// validate and print details
 
